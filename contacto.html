@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon"  href="Imagenes/favicon.ico">
+</head>
+<body>
+   
+<body>
+ <!-- Logo -->
+ <header>
+    <div class="Logo"> 
+        <a href="Index.html"> <img src="Imagenes/logo.jpg" class="Logo__imagen"> </a>
+    </div> 
+<!-- Menu -->
+    <nav class="Menu__nav">
+        <ul>
+            <li> <a href="productos.html">Productos</a> </li>
+           <li> <a href="precios.html"> Precios</a></li>
+           <li> <a href="contacto.html"> Contacto</a> </li>
+       </ul>
+   </nav> 
+</header>
+
+ <!-- Titulo -->
+<section class="Titulo">
+    <h1> DATOS DE CONTACTO</h1>
+</section>
+
+<!-- Datos -->
+<div class="Contacto">
+<!-- Mapa -->
+    <img class="Contacto" src="Imagenes/mapa.jpg" alt="Mapa" width="600">  
+    <ul>
+        <li> Dirección: Zona Oeste, Morón </li>
+        <li> Mail: Brujibakery@gmail.com </li>
+        <li> Instragram: @brujibakery </li>
+
+    </ul> 
+</div>
+
+<!-- Formulario de contacto -->
+<form action="Consulta" class="Consulta">
+    <fieldset>
+        <legend>Formulario de contacto</legend>
+        <br>
+   <label for="Nombre" >Nombre </label>  
+   <input type="text" name="Nombre" placeholder="Ingresa tu nombre">
+   <br>
+   <br>
+   <label for="Apellido">Apellido</label>   
+   <input type="text" name="Apellido" placeholder= "Ingresa tu apellido">
+   <br>
+   <br>
+   <label for="Email"> Email </label>   
+   <input type="email" name="email" placeholder="Ingresa tu email">
+   <br>
+   <br>
+   <label for="Genero">Genero</label>
+   <select name="Genero">
+       <option value="Selecciona tu genero"></option>
+       <option value="Feminino">Femenino</option>
+       <option value="Masculino">Masculino</option>
+       </select>
+       <br>
+       <br>
+
+   <label for="Consulta tu duda"> Consulta tu duda </label>
+   <input type="text" name="Consulta tu duda">
+   <br>
+   <br>
+   <label for=" Te gustaria recibir promociones por mail? ">Te gustaria recbir promociones por mail?</label>
+   <input type="radio" name="opcion" value="opcion"> Si
+   <input type="radio" name="opcion" value="opcion"> No
+   <br>
+   <br>
+   <input type="submit" value= "Enviar">
+
+    </fieldset>
+</form>
+    
+</body>
+</html>
