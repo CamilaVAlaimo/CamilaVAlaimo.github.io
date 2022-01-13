@@ -29,6 +29,15 @@
     display: block;
     justify-content: center;
 }
+/* transformacíon, y transición */
+.ImagenPrincipal img{
+    width: 70%;
+    overflow: hidden;
+}
+.ImagenPrincipal img:hover{
+    transform: scale(1.1, 1.1);
+}
+
 .ImagenPrincipal p{
     text-align: center;
 }

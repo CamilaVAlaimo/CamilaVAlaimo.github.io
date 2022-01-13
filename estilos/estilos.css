@@ -67,6 +67,15 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/* Gradiente */
+.boton{
+    border-color: rgb(81, 81, 202);
+    color: blueviolet;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, violet , rgb(238, 203, 232), violet , rgb(238, 203, 232), violet , rgb(238, 203, 232),violet , rgb(238, 203, 232), violet , rgb(238, 203, 232));
+}
+
 
 /* Footer de todas las paginas */
 .Footer a {
