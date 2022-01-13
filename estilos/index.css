@@ -22,6 +22,7 @@
 
 .Titulo{
     grid-area: Titulo;
+    margin-bottom: 2rem;
 }
 
 .ImagenPrincipal{
@@ -40,6 +41,7 @@
 
 .ImagenPrincipal p{
     text-align: center;
+    margin-top: 2rem;
 }
 
 .Footer{

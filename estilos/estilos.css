@@ -1,6 +1,6 @@
 /* Color de cuerpo de todas las paginas */
 body{
-    background-color: #e49d9d;}  
+    background-color: #e49d9d;} 
 
 /* Logo de todas las paginas */
 .Logo{
@@ -73,7 +73,7 @@ body{
     color: blueviolet;
     cursor: pointer;
     border-radius: 1rem;
-    background-image: linear-gradient(to right, violet , rgb(238, 203, 232), violet , rgb(238, 203, 232), violet , rgb(238, 203, 232),violet , rgb(238, 203, 232), violet , rgb(238, 203, 232));
+    background-image: linear-gradient(to right, rgb(106, 235, 228) , rgb(238, 203, 232), rgb(106, 235, 228), rgb(238, 203, 232), rgb(60, 233, 224) , rgb(238, 203, 232), rgb(106, 235, 228), rgb(238, 203, 232), rgb(106, 235, 228), rgb(238, 203, 232));
 }
 
 
