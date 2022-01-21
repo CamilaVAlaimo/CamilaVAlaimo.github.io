@@ -1,0 +1,15 @@
+// Titulos en el encabezado 
+
+$font: italic 42px "Arial Rounded MT Bold", sans-serif;
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+.encabezado__titulo{
+    margin-left: 20%;
+    margin-top: 3rem;
+    font: $font;
+}

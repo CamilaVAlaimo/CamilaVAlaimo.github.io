@@ -1,0 +1,20 @@
+.encabezado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  text-align: center;
+}
+
+.encabezado__titulo {
+  margin-left: 10rem;
+  margin-top: 3rem;
+  font: italic 1.4rem "Arial Rounded MT Bold", sans-serif;
+}
+/*# sourceMappingURL=estilos.css.map */
