@@ -1,7 +1,8 @@
+@import "extend";
+@import "map";
+@import "mixin";
+
 // Titulos en el encabezado 
-
-$font: italic 42px "Arial Rounded MT Bold", sans-serif;
-
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -11,5 +12,4 @@ $font: italic 42px "Arial Rounded MT Bold", sans-serif;
 .encabezado__titulo{
     margin-left: 20%;
     margin-top: 3rem;
-    font: $font;
 }

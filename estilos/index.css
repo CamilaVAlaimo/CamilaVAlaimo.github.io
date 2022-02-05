@@ -39,10 +39,10 @@
     transform: scale(1.1, 1.1);
 }
 
-.ImagenPrincipal p{
+/* .ImagenPrincipal p{
     text-align: center;
     margin-top: 2rem;
-}
+} */
 
 .Footer{
     grid-area: Footer;

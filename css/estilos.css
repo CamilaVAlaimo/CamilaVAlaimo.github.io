@@ -1,3 +1,48 @@
+.primerestilo, .segundoestilo {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.segundoestilo {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.producto_estilo {
+  font-family: "Arial Black";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  margin: 2rem;
+}
+
+.precios_estilo {
+  font-family: "Lucida Sans";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  margin: 2rem;
+}
+
+.contacto_estilo {
+  font-family: "Verdana";
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  margin: 2rem;
+}
+
+.Datos {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1rem;
+}
+
 .encabezado {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,8 +58,7 @@
 }
 
 .encabezado__titulo {
-  margin-left: 10rem;
+  margin-left: 20%;
   margin-top: 3rem;
-  font: italic 1.4rem "Arial Rounded MT Bold", sans-serif;
 }
 /*# sourceMappingURL=estilos.css.map */

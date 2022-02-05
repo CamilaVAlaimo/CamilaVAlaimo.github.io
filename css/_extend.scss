@@ -1,0 +1,13 @@
+// EXTEND
+.primerestilo{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.segundoestilo{
+    @extend .primerestilo;
+    font-size: 1.5rem;
+    font-style: italic;
+}
