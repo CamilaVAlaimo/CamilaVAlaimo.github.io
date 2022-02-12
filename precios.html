@@ -4,59 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pagina de precios de la pasteleria BrujiBakery">
-    <meta name="keywords" content="pasteleria, brujibakery, precios, pan dulce, pan dulce clasico, pan dulce relleno, dulce de leche, nutella">
-    <title>Precios de la pasteleria BrujiBakery</title>
-    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilos/estilos.css">
+    <meta name="author" content="Camila Victoria Alaimo">
+    <meta name="description" content="Pagina de precios de la pastelería BrujiBakery">
+    <meta name="keywords" content="pastelería, brujibakery, precios, pan dulce, pan dulce clásico, pan dulce relleno, dulce de leche, nutella">
+    <title>Precios de la pastelería BrujiBakery</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon"  href="Imagenes/favicon.ico">
 
 </head>
 <body>
- <!-- Logo -->
+ <!-- Logo, y Nav -->
  <header>
-    <div class="encabezado">
-        <a href="Index.html"> <img src="Imagenes/logo.jpg" alt="Logo" class="Logo__imagen"></a>
-        <div class="encabezado__titulo">
-            <h1>BRUJIBAKERY</h1>
-            <h2>TIENDA DE PASTELERIA</h2>
+    <nav class="navbar navbar-expand-md navbar-light Logo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+            <img src="Imagenes/logo-cutout.png" alt="Imagen del Logo de BrujiBakery" class="Logo__imagen">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navLinks">
+                <a class="nav-link" href="/productos.html">Productos</a>
+                <a class="nav-link" href="/precios.html">Precios</a>
+                <a class="nav-link" href="/contacto.html">Contacto</a>
+            </div>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+
+ <section>
+    <h1 class="Titulo">PRECIOS</h1>
+
+    <div class="Productos">
+<!-- P.D Relleno -->
+        <div class="Productos__tipo">
+            <h2 class="Subtitulos"><a href="pandulcerelleno.html"> Pan dulce: Relleno!</a></h2>
+            <img src="Imagenes/PDrelleno.jpg" alt="pan dulce relleno" width="300" height="300"> 
+            <h3>Precio: $1800</h3>
+        </div>
+<!-- P.D Clásico -->
+        <div class="Productos__tipo">
+            <h2 class="Subtitulos"> <a href="PandulceClasico.html"> Pan dulce: Clásico!</a></h2> 
+            <img src="Imagenes/PandulceClasico.jpeg" alt="pan dulce con frutos secos" width="300" height="300">
+            <h3>Precio: $1600</h3>
+        </div>
+<!-- Alfajores -->
+        <div class="Productos__tipo">
+                <h2 class="Subtitulos"> Alfajores </h2> 
+                <img src="Imagenes/alfajores.jpeg" alt="alfajores" width="300" height="300">
+                <h3>Precio por docena: $800 </h3>
+        </div> 
+<!-- Desayunos o meriendas en boxs -->
+        <div class="Productos__tipo">
+            <h2 class="Subtitulos"> Desayunos </h2> 
+            <img src="Imagenes/boxs.jpeg" alt="desayunos" width="300" height="300">
+            <h3>Precio: $2200</h3>
+        </div>
+<!-- Letter Cake -->
+        <div class="Productos__tipo">
+            <h2 class="Subtitulos"> Letter Cake </h2> 
+            <img src="Imagenes/lettercake.jpeg" alt="lettercake" width="300" height="300">
+            <h3>Precio: $2500 </h3>
+         </div>
+<!-- Tartas -->
+        <div class="Productos__tipo">
+            <h2 class="Subtitulos"> Tartas </h2> 
+            <img src="Imagenes/tartas.jpeg" alt="tartas" width="300" height="300">
+            <h3>Precio: $2000</h3>
+        </div>
+<!-- Huevos Rellenos -->
+        <div class="Productos__tipo">
+            <h2 class="Subtitulos"> Huevos Rellenos </h2> 
+            <img src="Imagenes/huevosrellenos.jpeg" alt="huevo relleno" width="300" height="300">
+            <h3>Precio: $1800 </h3>
+        </div>
+    </div>   
+</section> 
+
+<!-- Footer -->
+<footer class="Footer">
+    <div class="container">
+        <div class="row align-self-center">
+            <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <h4>Navegación</h4>
+                <ul>
+                    <li>
+                        <a href="/Index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="/precios.html">Precios</a>
+                    </li>
+                    <li>
+                        <a href="/contacto.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <h4>Redes</h4>
+                <ul>
+                    <li>
+                        <a href="#"><img src="/Imagenes/instagram.png" alt="Instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/Imagenes/facebook.png" alt="facebook"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><img src="/Imagenes/Telefono.png" alt="Teléfono"> +549-11-11111111</li>
+                    <li><img src="/Imagenes/email.png" alt="email">brujibakery@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <h4>Métodos de pago</h4>
+                <ul>
+                    <li><img src="/Imagenes/MercadoPago.png" alt="Mercado pago"></li>
+                    <li><img src="/Imagenes/visaMaster.png" alt="Visa y Mastercard"></li>
+                </ul>
+            </div>
+
+            
         </div>
     </div>
-</header>
-<!-- Menu -->
-    <nav class="Menu__nav">
-        <ul>
-            <li> <a href="productos.html">Productos</a> </li>
-           <li> <a href="precios.html"> Precios</a></li>
-           <li> <a href="contacto.html"> Contacto</a> </li>
-       </ul>
-   </nav> 
-
-
-<!-- Tabla con precios -->
-    <section>
-        <h1 class="Titulo"> PRECIOS DE LOS PAN DULCES </h1>
-    <table class= "TablaPrecios  table table-success table-striped"> 
-        <tr>
-        <td>Pan dulce de dulce de leche</td>
-        <td>Pan dulce de nutella</td>
-        <td>Pan dulce clasico</td>
-        </tr>
-        <tr>
-            <td> $1600 </td>
-            <td> $1800 </td>
-            <td> $1600 </td>
-        </tr>
-    </table>
-<br>
-<br>
-<br>
-<br>
-<!-- Footer -->
- <footer class="Footer">
-    <p> Email: brujibakery@gmail.com Instagram: @brujibakery</p>  
-    <a href="contacto.html"> Contacto </a>
 </footer>
 </body>
-</html>
+</html> 

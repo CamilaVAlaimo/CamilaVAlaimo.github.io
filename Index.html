@@ -4,54 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pagina principal de la pasteleria BrujiBakery">
-    <meta name="keywords" content="pasteleria, brujibakery">
-    <title>Pasteleria: BrujiBakery</title>
-    <link rel="stylesheet" href="boostrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <link rel="stylesheet" href="estilos/index.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="author" content="Camila Victoria Alaimo">
+    <meta name="description" content="Pagina principal de la pastelería BrujiBakery">
+    <meta name="keywords" content="pastelería, brujibakery">
+    <title>Pastelería: BrujiBakery</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
     <link rel="shortcut icon"  href="Imagenes/favicon.ico">
     
 </head>
+<body>
 
-<body class="Index">
-<!-- Logo -->
-    <header class="Logo">
-        <div class="encabezado">
-            <a href="Index.html"> <img src="Imagenes/logo.jpg" alt="Imagen del Logo de BrujiBakery" class="Logo__imagen"></a>
-            <div class="encabezado__titulo">
-                <h1>BRUJIBAKERY</h1>
-                <h2>TIENDA DE PASTELERIA</h2>
+<!-- Logo, y Nav -->
+    <header>
+    <nav class="navbar navbar-expand-md navbar-light Logo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+            <img src="Imagenes/logo-cutout.png" alt="Imagen del Logo de BrujiBakery" class="Logo__imagen">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navLinks">
+                <a class="nav-link" href="/productos.html">Productos</a>
+                <a class="nav-link" href="/precios.html">Precios</a>
+                <a class="nav-link" href="/contacto.html">Contacto</a>
+            </div>
             </div>
         </div>
+        </nav>
     </header>
 
-<!-- Menu -->
-        <nav class="Menu__nav">
-             <ul class="Menu__lista">
-                <li> <a class="producto_estilo" href="productos.html">Productos</a> </li>
-                <li> <a class="precios_estilo"  href="precios.html"> Precios</a></li>
-                <li> <a class="contacto_estilo" href="contacto.html"> Contacto</a> </li>
-            </ul>
-        </nav> 
-    
-
 <!-- Imagen principal -->
-<div class="ImagenPrincipal">  
-    <img src="Imagenes/PanDulce.jpg" alt="Pandulces" class="imagen rounded-circle">
-    <p class="primerestilo"> Los mejores pan dulces que vas a probar, clasicos, y rellenos.
+<div class="Principal">  
+    <img src="Imagenes/PanDulce.jpg" alt="Pan dulces" class="imagen rounded-circle">
+    <p class="primerestilo"> Los mejores pan dulces que vas a probar, clásicos, y rellenos.
     No te quedes sin el tuyo para estas fiestas!</p>
-    <p class="segundoestilo">El ingrediente secreto es: AMOR. Sentimos amor por la pasteleria y queremos llevarlo a tu hogar. 
-        Todos los productos estan hechos de manera artesanal, sin ningun tipo de conservante, y personalizada </p>
+    <p class="segundoestilo">El ingrediente secreto es: AMOR. Sentimos amor por la pastelería y queremos llevarlo a tu hogar. 
+        Todos los productos están hechos de manera artesanal, sin ningún tipo de conservante, y personalizada </p>
  </div>
-<br>
-<br>
-<br>
+
 <!-- Footer -->
 <footer class="Footer">
-    <p> Email: brujibakery@gmail.com Instagram: @brujibakery</p>  
-    <a href="contacto.html"> Contacto </a>
+    <div class="container">
+        <div class="row align-self-center">
+            <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <h4>Navegación</h4>
+                <ul>
+                    <li>
+                        <a href="/Index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="/precios.html">Precios</a>
+                    </li>
+                    <li>
+                        <a href="/contacto.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <h4>Redes</h4>
+                <ul>
+                    <li>
+                        <a href="#"><img src="/Imagenes/instagram.png" alt="Instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/Imagenes/facebook.png" alt="facebook"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><img src="/Imagenes/Telefono.png" alt="Teléfono"> +549-11-11111111</li>
+                    <li><img src="/Imagenes/email.png" alt="email">brujibakery@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <h4>Métodos de pago</h4>
+                <ul>
+                    <li><img src="/Imagenes/MercadoPago.png" alt="Mercado pago"></li>
+                    <li><img src="/Imagenes/visaMaster.png" alt="Visa y Mastercard"></li>
+                </ul>
+            </div>
+
+            
+        </div>
+    </div>
 </footer>
 </body>
 </html>

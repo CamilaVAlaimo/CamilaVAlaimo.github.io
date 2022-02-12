@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import "variables";
 @import "extend";
-@import "map";
 @import "mixin";
 
-// Titulos en el encabezado 
+// Color de fondo de todas las paginas
+body{
+    margin: 0px;
+    background-color: $colordefondo;
+} 
+// Color del fondo del Header, y tamaño del logo 
+.Logo {
+    background-color: $colordeheader;
+}
+.Logo__imagen{
+    width: 200px;
+ }
+
+// Color de fondo del footer
+.Footer{
+    background-color: $colordefooter;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+// Títulos en el encabezado, y subtítulos 
 .encabezado{
     display: flex;
     flex-direction: row;
@@ -12,4 +33,89 @@
 .encabezado__titulo{
     margin-left: 20%;
     margin-top: 3rem;
+}
+.Titulo{
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: $tituloletra
+}
+.Subtitulos{
+    text-align: left;
+    color: $colordesubtitulo;
+}
+.Subtitulos a{
+    color:$colordesubtitulo
+}
+
+// LINKS DEL NAV de todas las paginas
+.navLinks a{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.4rem;
+}
+
+// CARROUSEL de la pagina Productos
+.ProductosCarrousel img{
+    width: 100%; 
+    height: 40rem;
+    object-fit: cover; 
+    object-position: 50% 50%;
+}
+
+// IMAGEN DEL INDEX
+.Principal img{
+    width: 70%;
+    overflow: hidden;
+    padding: 2.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.Principal img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+//   Características del footer links, e iconos 
+.Footer a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family:'Cinzel', serif;
+}
+.Footer img{
+    width: 40px;
+    margin: 0.5rem;
+}
+
+// Precios en las paginas de pan dulces
+.Precio{
+    text-decoration: none;
+    color: #a77473;
+    text-transform: uppercase;
+    font-family: 'Cinzel', serif; 
+ }
+
+// Contacto
+.Consulta{
+    border: dotted #a77473 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+//imagen teléfono de contacto
+.imagencontacto{
+    width: 100%;  
+}
+
+.Productos__tipo img{
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.Productos__tipo p{
+    margin-top: 1rem;
 }

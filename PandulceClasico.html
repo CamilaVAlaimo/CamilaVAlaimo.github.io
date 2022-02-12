@@ -4,52 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Pan dulce clasico de la pasteleria BrujiBakery">
-    <meta name="keywords" content="pasteleria, brujibakery, pan dulce, pan dulce clasico, frutos secos, almendras, nueces, castañas de caju">
-    <title>Pan dulce clasico</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <link rel="stylesheet" href="estilos/productos.css">
+    <meta name="author" content="Camila Victoria Alaimo">
+    <meta name="description" content="Pan dulce clásico de la pastelería BrujiBakery">
+    <meta name="keywords" content="pastelería, brujibakery, pan dulce, pan dulce clásico, frutos secos, almendras, nueces, castañas de caju">
+    <title>Pan dulce clásico</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon"  href="Imagenes/favicon.ico">
 </head>
 
 <body>
- <!-- Logo -->
+ <!-- Logo, y Nav -->
  <header>
-    <div class="encabezado">
-        <a href="Index.html"> <img src="Imagenes/logo.jpg" alt="Logo" class="Logo__imagen"></a>
-        <div class="encabezado__titulo">
-            <h1>BRUJIBAKERY</h1>
-            <h2>TIENDA DE PASTELERIA</h2>
+    <nav class="navbar navbar-expand-md navbar-light Logo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">
+            <img src="Imagenes/logo-cutout.png" alt="Imagen del Logo de BrujiBakery" class="Logo__imagen">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navLinks">
+                <a class="nav-link" href="/productos.html">Productos</a>
+                <a class="nav-link" href="/precios.html">Precios</a>
+                <a class="nav-link" href="/contacto.html">Contacto</a>
+            </div>
+            </div>
         </div>
-    </div>
+        </nav>
 </header>
-<!-- Menu -->
-    <nav class="Menu__nav">
-        <ul>
-            <li> <a href="productos.html">Productos</a> </li>
-           <li> <a href="precios.html"> Precios</a></li>
-           <li> <a href="contacto.html"> Contacto</a> </li>
-       </ul>
-   </nav> 
 
-    <!-- Producto: pan dulce frutos secos -->
+<!-- Producto: pan dulce frutos secos -->
     <section>
-        <h1 class="Titulo"> PAN DULCE CLASICO </h1>
-        <div class="Productos">
+        <h1 class="Titulo"> PAN DULCE CLÁSICO </h1>
+        <div class="Productos-distinto">
         <div class="Productos__tipo">
+            <h2>Pan Dulce de Frutos secos</h2>
             <img src="Imagenes/pandulcefrutossecos.jpeg" alt="Pan dulce de frutos secos" width="500">
-            <p> Pan dulce clasico, relleno de frutos secos. <br> Especificamente relleno de almendras, castañas de caju, y nueces. <br> Bañado con chocolate semi amargo, cubierto con mas frutos secos</p>
+            <p> Pan dulce clásico, relleno de frutos secos. <br> Específicamente relleno de almendras, castañas de caju, y nueces. <br> Bañado con chocolate semi amargo, cubierto con mas frutos secos</p>
             <a class="Precio" href="precios.html">Precio</a> 
         </div>
         </div>
     </section>
+
+
 <!-- Footer -->
- <footer class="Footer">
-    <p> Email: brujibakery@gmail.com Instagram: @brujibakery</p>  
-    <a href="contacto.html"> Contacto </a>
+<footer class="Footer">
+    <div class="container">
+        <div class="row align-self-center">
+            <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <h4>Navegación</h4>
+                <ul>
+                    <li>
+                        <a href="/Index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="/productos.html">Productos</a>
+                    </li>
+                    <li>
+                        <a href="/precios.html">Precios</a>
+                    </li>
+                    <li>
+                        <a href="/contacto.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <h4>Redes</h4>
+                <ul>
+                    <li>
+                        <a href="#"><img src="/Imagenes/instagram.png" alt="Instagram"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="/Imagenes/facebook.png" alt="facebook"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-xs-8 col-sm-8 col-md-4 col-lg-4 col-xl-4">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><img src="/Imagenes/Telefono.png" alt="Teléfono"> +549-11-11111111</li>
+                    <li><img src="/Imagenes/email.png" alt="email">brujibakery@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <h4>Métodos de pago</h4>
+                <ul>
+                    <li><img src="/Imagenes/MercadoPago.png" alt="Mercado pago"></li>
+                    <li><img src="/Imagenes/visaMaster.png" alt="Visa y Mastercard"></li>
+                </ul>
+            </div>
+
+            
+        </div>
+    </div>
 </footer>
-
-
 </body>
 </html>
